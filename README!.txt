@@ -3,7 +3,6 @@ Instructor:	Dr. Marco Valtorta
 ------------------------------------
 Submitted By:-
 1.	Megha Gupta
-2.	Nikhil Kapoor
 
 Dated:-		Sunday, April 28, 2013
 ------------------------------------

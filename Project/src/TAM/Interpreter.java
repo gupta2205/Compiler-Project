@@ -432,7 +432,7 @@ public class Interpreter {
 		ST = ST - 1;
 	    data[ST - 1] = toInt(data[ST - 1] < data[ST]);
 	    break;
-	  // added for problem 9.15	@authors:-	megha & nikhil
+	  // added for problem 9.15	@authors:-	megha 
 	  // added the code for the Range Check functionality
       case Machine.rgcDisplacement:
     	if (data[ST - 3] <= data[ST - 1])

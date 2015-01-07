@@ -173,7 +173,7 @@ public final class Encoder implements Visitor {
     return null;
   }
 
-  // added for repeat command... @author Megha Gupta and Nikhil Kapoor
+  // added for repeat command... @author Megha Gupta 
   // added for part 9.6a
 
   public Object visitRepeatCommand(RepeatCommand ast, Object o) {
@@ -187,7 +187,7 @@ public final class Encoder implements Visitor {
         return null;
   }
   
-  // added for For command... @author Megha Gupta and Nikhil Kapoor
+  // added for For command... @author Megha Gupta 
   // added for part 9.6b
   
     public Object visitForCommand(ForCommand ast, Object o) {
@@ -244,7 +244,7 @@ public final class Encoder implements Visitor {
     return valSize;
   }
 
-  //added for 9.7		@authors:- 		megha & nikhil
+  //added for 9.7		@authors:- 		megha
   public Object visitCaseCommand(CaseCommand ast, Object o) {		
 		Frame frame = (Frame) o;
 		emit(Machine.PUSHop, 0, 0, 1);
@@ -805,7 +805,7 @@ public final class Encoder implements Visitor {
     return baseObject;
   }
 
-  //	added for problem 9.12a		@authors:	megha & nikhil
+  //	added for problem 9.12a		@authors:	megha 
   public Object visitSubscriptVname2(SubscriptVname2 ast, Object o) {
 	  	Frame frame = (Frame) o;
 	    RuntimeEntity baseObject;
@@ -902,9 +902,9 @@ public final class Encoder implements Visitor {
     elaborateStdPrimRoutine(StdEnvironment.puteolDecl, Machine.puteolDisplacement);
     elaborateStdEqRoutine(StdEnvironment.equalDecl, Machine.eqDisplacement);
     elaborateStdEqRoutine(StdEnvironment.unequalDecl, Machine.neDisplacement);
-    //	added for 9.12		@authors:	megha & nikhil
+    //	added for 9.12		@authors:	megha 	
     elaborateStdPrimRoutine(StdEnvironment.lexicalDecl, Machine.lexDisplacement);
-    //	added for 9.15		@authors:	megha & nikhil
+    //	added for 9.15		@authors:	megha
     elaborateStdPrimRoutine(StdEnvironment.rgcDecl, Machine.rgcDisplacement);
   }
 

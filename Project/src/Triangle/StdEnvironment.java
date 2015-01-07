@@ -47,7 +47,7 @@ public final class StdEnvironment {
 
   public static ProcDeclaration
     getDecl, putDecl, getintDecl, putintDecl, geteolDecl, puteolDecl, rgcDecl; // added for 9.15
-  																			   // @authors:- megha & nikhil
+  																			   // @authors:- megha
 
   public static FuncDeclaration
     chrDecl, ordDecl, eolDecl, eofDecl;

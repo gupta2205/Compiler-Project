@@ -135,6 +135,6 @@ public final class Machine {
     newDisplacement = 27,
     disposeDisplacement = 28,
     lexDisplacement = 29,
-  	rgcDisplacement = 30;	//	added for 9.15	@authors:-	megha & nikhil
+  	rgcDisplacement = 30;	//	added for 9.15	@authors:-	megha 
 
 }

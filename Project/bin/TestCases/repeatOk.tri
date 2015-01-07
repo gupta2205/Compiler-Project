@@ -1,0 +1,17 @@
+!Test: Check a correct repeat command
+!Expected result: Print the numbers 1-20
+
+let 
+  var i:Integer;
+  var sum : Integer
+in
+	begin
+		sum := 0;
+		repeat
+			begin
+			sum := sum + 1;
+			putint(sum);
+			puteol()
+			end
+		until (sum >= 20)
+	end

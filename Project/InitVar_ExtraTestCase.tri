@@ -1,0 +1,28 @@
+! Extra Test Case - Variable Declaration 
+! @authors:-	Megha & Nikhil
+
+let
+   var n := 1
+in
+   begin
+   if (n=1) then
+   		put ('y')
+   else
+   		put ('n');
+
+   let 
+   		var n:=1
+   in
+   begin
+	   if (n=2) then
+	   		put ('y')
+	   else
+	   		put ('n');
+   end;
+
+   if (n=1) then
+   		put ('y')
+   else
+   		put ('n')
+   end
+
